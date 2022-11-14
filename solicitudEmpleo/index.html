@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Solicitud de Empleo</title>
+</head>
+<body>
+<table border="1">
+
+
+    <tr>
+        <th bgcolor="#a9a9a9">Solicitud de Empleo</th>
+        <td>fecha <br>
+            <input type="date">
+        </td>
+
+        <td rowspan="4"><input for="" style="width: 392px; height: 180px;"></input></td>
+    </tr>
+
+
+
+    <tr>
+        <td rowspan="3">Puesto que solicita <br>
+            <input type="text" size="50"> <br>
+            Sea tan amable de llenar esta solicitud en forma manuscrita<br>
+            NOTA: Toda la informacion aqui proporcionada sera tratada <br>
+                                confidencialmente <br>
+        </td>
+        <td>Sueldo Mensual deseado <br>
+             <input type="number">
+        </td>
+
+    </tr>
+
+
+    <tr>
+        <td>Sueldo Mensual autorizado <br>
+            <input type="number" >
+        </td>
+    </tr>
+
+    <tr>
+        <td>Fecha de Contratacion <br>
+            <input type="date">
+        </td>
+    </tr>
+
+
+</table>
+
+
+<table border="1">
+    <thead>
+    <tr>
+        <th colspan="9" bgcolor="#a9a9a9" >Datos Personales</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+
+        <td style="border:  0pt">Apellido Paterno <br><input type="text"> </td>
+        <td style="border: 0pt">Apellido Materno <br><input type="text"> </td>
+        <td style="border: 0pt" colspan="2">Nombre(s) <br><input type="text" size=50> </td>
+
+
+        <td colspan="1">Edad <br><input type="number" ></td>
+    </tr>
+
+    <tr>
+        <td style="border: inset 0pt">Domicilio <br><input type="text"> </td>
+        <td style="border: inset 0pt">Colonia<br><input type="text"> </td>
+        <td style="border: inset 0pt">Codigo Postal <br><input type="text"> </td>
+        <td rowspan="1.5">Telefono <br><input type="number"></td>
+        <td colspan="2">Sexo <br>
+            <input type="radio"  name="sexo" id="m"> <label for="m">Masculino</label> <br>
+            <input type="radio"  name="sexo" id="f"> <label for="f">Femenino</label>
+        </td>
+    </tr>
+
+    <tr>
+        <td  style="border: inset 0pt;" >Ciudad, Estado <br> <input  type="text"></td>
+        <td colspan="2" style="border: inset 0pt;">Lugar de Nacimiento <br> <input type="text" style="width: 350px;"></td>
+        <td>Fecha Nacimiento <br> <input type="date"></td>
+        <td>Nacionalidad <br> <input type="text"></td>
+    </tr>
+    
+    <tr>
+        <td colspan="3">Vive con <br>
+            <input type="radio" name="vive" id="padres"> <label for="padres">Sus padres</label>
+            <input type="radio" name="vive" id="familia"> <label for="familia">Su familia</label>
+            <input type="radio" name="vive" id="parientes"> <label for="parientes">Parientes</label>
+            <input type="radio" name="vive" id="solo"> <label for="solo">Solo</label>
+        </td>
+
+        <td>Estatura <input type="number"></td>
+        <td>Peso <input type="number" ></td>
+    </tr>
+
+    <tr>
+        <td colspan="3">Personas que dependen de usted <br>
+            <input type="radio" name="dependen_ud" id="hijos"> <label for="hijos">Hijos</label>
+            <input type="radio" name="dependen_ud" id="conyuge"> <label for="conyuge">Cónyuge</label>
+            <input type="radio" name="dependen_ud" id="padres2"> <label for="padres2">Padres</label>
+            <input type="radio" name="dependen_ud" id="otros"> <label for="otros">Otros</label>
+        </td>
+
+        <td colspan="2">
+            Estado Civil <br>
+            <input type="radio" name="estado_civil" id="soltero"> <label for="soltero">Soltero</label>
+            <input type="radio" name="estado_civil" id="casado"> <label for="casado">Casado</label>
+            <input type="radio" name="estado_civil" id="otro"> <label for="otro">Otro</label>
+        </td>
+    </tr>
+
+
+</table>
+
+
+<table border="1">
+    <tr>
+        <th colspan="10" bgcolor="#a9a9a9">Documentación</th>
+    </tr>
+    <tr>
+        <td colspan="2">
+            Clave Única de Reistro de Población <br>
+            <input type="text" size="67">
+        </td>
+
+        <td colspan="2">
+            AFORE <br>
+            <input type="text" size="67">
+        </td>
+    </tr>
+
+    <tr>
+        <td>Reg. Fed. de Contribuyentes <br> <input type="text"></td>
+
+        <td>Número de Seguridad Social <br> <input type="text"></td>
+        <td>Cartilla de Servicio Militar No. <br> <input type="text"></td>
+
+        <td>Pasaporte No.<br> <input type="text" ></td>
+    </tr>
+</table>
+
+<table border="1">
+    <tr>
+        <th colspan="5" bgcolor="#a9a9a9">Estado de Salud y Hábitos Personales</th>
+    </tr>
+
+
+    <tr>
+            <td colspan="2">
+                ¿Como considera su estado de salud actual? <br>
+                <input type="radio" name="salud" id="bueno"> <label for="bueno">Bueno</label>
+                <input type="radio" name="salud" id="regular"> <label for="regular">Regular</label>
+                <input type="radio" name="salud" id="malo"> <label for="malo">Malo</label>
+            </td>
+
+        <td colspan="2">
+            ¿Padece alguna enfermedad crónica? <br>
+            <input type="radio" name="cronica" id="no"> <label for="no">No</label>
+            <input type="radio" name="cronica" id="si"> <label for="si">Sí (Explique)</label>
+            <input type="text" size="41">
+    </tr>
+
+    <tr>
+        <td>
+            ¿Práctica Ud. Algún Deporte? <br>
+            <input type="text">
+        </td>
+
+        <td>
+            ¿Permanece a algún Club Social o Deportivo? <br>
+            <input type="text">
+        </td>
+
+        <td>
+            ¿Cúal es su pasatiempo favorito? <br>
+            <input type="text" size="60">
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="3">
+            ¿Cuál es su meta en la vida? <br>
+            <input type="text" size="130">
+        </td>
+
+    </tr>
+</table>
+
+<table border="1">
+
+    <tr bgcolor="#a9a9a9">
+        <th colspan="6">Datos Familiares</th>
+    </tr>
+
+    <tr>
+        <td style="border: inset 0pt;">Nombre</td>
+        <td style="border: inset 0pt;">Vive</td>
+        <td style="border: inset 0pt;">Fin</td>
+        <td style="border: inset 0pt;">Domicilio</td>
+        <td style="border: inset 0pt;">Ocupación</td>
+    </tr>
+
+    <tr>
+        <td>
+            Padre <br>
+            <input type="text" size="33">
+        </td>
+        <td>
+            <input type="radio" name="padre">
+        </td>
+        <td>
+            <input type="radio" name="padre" >
+        </td>
+
+        <td><input type="text" name="domicilio" size="40" style="border: 0pt;"> </td>
+        <td><input type="text"  name="ocupacion" size="40" style="border: 0pt;"> </td>
+    </tr>
+
+    <tr>
+        <td>
+            Madre <br>
+            <input type="text" size="33">
+        </td>
+        <td>
+            <input type="radio" name="madre">
+        </td>
+        <td>
+            <input type="radio" name="madre">
+        </td>
+
+        <td><input type="text" name="domicilio" size="40" style="border: 0pt;"> </td>
+        <td><input type="text"  name="ocupacion" size="40" style="border: 0pt;"> </td>
+    </tr>
+
+    <tr>
+        <td>
+            Esposa(o) <br>
+            <input type="text" size="33">
+        </td>
+        <td>
+            <input type="radio" name="esposx">
+        </td>
+        <td>
+            <input type="radio" name="esposx">
+        </td>
+
+        <td><input type="text" name="domicilio" size="40" style="border: 0pt;"> </td>
+        <td><input type="text"  name="ocupacion" size="40" style="border: 0pt;"> </td>
+    </tr>
+
+    <tr>
+        <td colspan="6">
+            Nombre y edades de los hijos <br>
+            <input type="text" size="140">
+        </td>
+    </tr>
+</table>
+
+<table border="1">
+    <tr>
+        <th colspan="6" bgcolor="#a9a9a9">Escolaridad</th>
+    </tr>
+
+    <tr>
+        <td style="border: 0pt;">Nombre</td>
+        <td style="border: 0pt;">Dirección</td>
+        <td style="border: 0pt;">De</td>
+        <td style="border: 0pt;">A</td>
+        <td style="border: 0pt;">Años</td>
+        <td style="border: 0pt;">Titulo Recibido</td>
+    </tr>
+
+    <tr>
+        <td> Primaria <br> <input type="text"></td>
+        <td style="size: 10px"> <input type="text" name="direccion" style="border: 0pt;"></td>
+        <td> <input type="number" name="de"  style="border: 0pt;" size="2"></td>
+        <td> <input type="number" name="a"  style="border: 0pt;" size="2"></td>
+        <td> <input type="number" name="años" style="border: 0pt;" size="2"></td>
+        <td> <input type="text" name="titulo"style="border: 0pt;" size="10"></td>
+    </tr>
+
+    <tr>
+        <td> Secundaria o Prevocacional <br> <input type="text"></td>
+        <td style="size: 10px"> <input type="text" name="direccion" style="border: 0pt;"></td>
+        <td> <input type="number" name="de"  style="border: 0pt;" size="2"></td>
+        <td> <input type="number" name="a"  style="border: 0pt;" size="2"></td>
+        <td> <input type="number" name="años" style="border: 0pt;" size="2"></td>
+        <td> <input type="text" name="titulo"style="border: 0pt;" size="10"></td>
+
+    </tr>
+
+    <tr>
+        <td> Preparatoria o Vocacional <br> <input type="text"></td>
+        <td style="size: 10px"> <input type="text" name="direccion" style="border: 0pt;"></td>
+        <td> <input type="number" name="de"  style="border: 0pt;" size="2"></td>
+        <td> <input type="number" name="a"  style="border: 0pt;" size="2"></td>
+        <td> <input type="number" name="años" style="border: 0pt;" size="2"></td>
+        <td> <input type="text" name="titulo"style="border: 0pt;" size="10"></td>
+
+    </tr>
+
+    <tr>
+        <td> Profesional <br> <input type="text"></td>
+        <td style="size: 10px"> <input type="text" name="direccion" style="border: 0pt;"></td>
+        <td> <input type="number" name="de"  style="border: 0pt;" size="2"></td>
+        <td> <input type="number" name="a"  style="border: 0pt;" size="2"></td>
+        <td> <input type="number" name="años" style="border: 0pt;" size="2"></td>
+        <td> <input type="text" name="titulo"style="border: 0pt;" size="10"></td>
+
+    </tr>
+
+    <tr>
+        <td> Comercial u Otras <br> <input type="text"></td>
+        <td style="size: 10px"> <input type="text" name="direccion" style="border: 0pt;"></td>
+        <td> <input type="number" name="de"  style="border: 0pt;" size="2"></td>
+        <td> <input type="number" name="a"  style="border: 0pt;" size="2"></td>
+        <td> <input type="number" name="años" style="border: 0pt;" size="2"></td>
+        <td> <input type="text" name="titulo"style="border: 0pt;" size="10"></td>
+       
+    </tr>
+
+    <tr>
+        <td colspan="6" style="border: 0pt;">
+            Estudios que esta efectuando en la actualidad: <br>
+            Escuela <input type="text" style="border: 0pt;">
+            Horario <input type="text" style="border: 0pt;">
+            Curso o Carrera <input type="text" style="border: 0pt;">
+            Grado <input type="text" style="border: 0pt;" >
+
+        </td>
+    </tr>
+</table>
+
+<table border="1">
+    <tr>
+        <th colspan="4" bgcolor="#a9a9a9">Conocimiento Generales</th>
+    </tr>
+
+    <tr>
+        <td colspan="2"> Que idiomas habla &nbsp;&nbsp;&nbsp;&nbsp; Nivel(50%, 75%, 100%)<br> <input type="text" style="border: 0px;"></td>
+
+        <td colspan="2">Funciones de oficina que domina <br> <input type="text" style="border: 0pt;"></td>
+    </tr>
+
+    <tr>
+        <td colspan="2"> Maquinas de Oficina o Taller que sepa manejar <br> <input type="text" style="border: 0pt;"></td>
+        <td>Software que conoce<br> <input type="text" style="border: 0px;"></td>
+    </tr>
+
+    <tr>
+        <td colspan="3">Otros trabajos o funciones que domina<br> <input type="text" style="border: 0px;" size="141"></td>
+    </tr>
+</table>
+
+
+<table border="1">
+    <tr>
+        <th bgcolor="#a9a9a9" colspan="5">Empleo Actual y Anteriores</th>
+    </tr>
+
+    <tr>
+        <td style="border: 0px">Concepto</td>
+        <td style="border: 0px">Actual o ultimo</td>
+        <td style="border: 0px">Anterior</td>
+        <td style="border: 0px">Anterior</td>
+        <td style="border: 0px">Anterior</td>
+    </tr>
+
+    <tr>
+        <td>Tiempo que presto sus servicios</td>
+        <td>de <input type="number" style="width: 30px; height: 20px;border: 0px"; > a <input type="number" style="width: 30px; height: 20px; border: 0px"; ></td>
+        <td>de <input type="number" style="width: 30px; height: 20px;border: 0px"; > a <input type="number" style="width: 30px; height: 20px; border: 0px"; ></td>
+        <td>de <input type="number" style="width: 30px; height: 20px;border: 0px"; > a <input type="number" style="width: 30px; height: 20px; border: 0px"; ></td>
+        <td>de <input type="number" style="width: 30px; height: 20px;border: 0px"; > a <input type="number" style="width: 30px; height: 20px; border: 0px"; ></td>
+        
+    </tr>
+
+    <tr>
+        <td>Nombre de la Compañia</td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+    </tr>
+
+    <tr>
+        <td>Dirección</td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+    </tr>
+
+    <tr>
+        <td>Teléfono</td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+    </tr>
+
+    <tr>
+        <td>Puesto desempeñado</td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+    </tr>
+
+    <tr>
+        <td>Sueldos Mensual: </td>
+        <td>Inicial <input type="number" style="width: 30px; height: 20px;border: 0px"; > Final <input type="number" style="width: 30px; height: 20px; border: 0px"; ></td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+    </tr>
+
+    <tr>
+        <td>Motivo de separecón</td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+    </tr>
+
+    <tr>
+        <td>Nombre de su jefe directo</td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+    </tr>
+
+    <tr>
+        <td>Puesto de jefe directo</td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+        <td><input type="text" style="border: 0px"></td>
+    </tr>
+
+    <tr>
+        <td>
+            Podemos solicitar <br>
+            informes de usted <br>
+            <input type="radio" name="informes" id="si2"> <label for="si2">Sí</label> <br>
+            <input type="radio" name="informes" id="no2"> <label for="no2">No(razones)</label>
+        </td>
+
+        <td colspan="4">
+            Comentarios de sus jefes <br>
+            <input type="text" style="width: 754px; height: 50px; border: 0px" >
+        </td>
+    </tr>
+</table>
+
+<table border="1">
+    <tr>
+        <th bgcolor="#a9a9a9">Datos Generales</th>
+        <th bgcolor="#a9a9a9" colspan="2">Datos Económicos</th>
+    </tr>
+
+    <tr>
+        <td>
+            ¿Como supo de este empleo? <br>
+            <input type="radio" name="empleo" id="e1"><label for="e1"> Anuncio</label>
+            <input type="radio" name="empleo" id="e2"><label for="e2"> Otro medio(anótelo)</label>
+            <input type="text" style="border: 0px">
+        </td>
+
+        <td>
+            ¿Tiene usted otros ingresos? <br>
+            <input type="radio" name="otros" id="i1"> <label for="i1"> No </label>
+            <input type="radio" name="otros" id="i2"> <label for="i2"> Sí(describalos)</label>
+            <input type="text" style="border: 0px">
+        </td>
+
+        <td>
+            Importe mensual <br>
+            $ <input type="number" style="border: 0px">
+        </td> 
+    </tr>
+
+    <tr>
+        <td>
+            ¿Tiene parientes trabajando en esta empresa? <br>
+            <input type="radio" name="parientes" id="t1"><label for="t1"> No</label>
+            <input type="radio" name="parientes" id="t2"><label for="t2"> Sí(nombrelos)</label>
+            <input type="text" style="border: 0px">
+        </td>
+
+        <td>
+            ¿Su cónyuge trabaja? <br>
+            <input type="radio" name="con" id="c1"> <label for="c1"> No </label>
+            <input type="radio" name="con" id="c2"> <label for="c2"> Sí(¿donde?)</label>
+            <input type="text" style="border: 0px">
+        </td>
+
+        <td>
+            Percepción mensual <br>
+            $ <input type="number" style="border: 0px">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            ¿Ha estado afianzado? <br>
+            <input type="radio" name="afianzado" id="a1"><label for="a1"> No</label>
+            <input type="radio" name="afianzado" id="a2"><label for="a2"> Sí(nombre de la Cía)</label>
+            <input type="text" style="border: 0px">
+        </td>
+
+        <td>
+            ¿Vive en casa propia? <br>
+            <input type="radio" name="casa" id="p1"> <label for="i1"> No </label>
+            <input type="radio" name="casa" id="p2"> <label for="i2"> Sí</label>
+
+        </td>
+
+        <td>
+            Valor aproximado <br>
+            $ <input type="number" style="border: 0px">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            ¿Ha estado afiliado a algún sindicato? <br>
+            <input type="radio" name="sindicato" id="s1"><label for="s1"> No</label>
+            <input type="radio" name="sindicato" id="s2"><label for="s2"> Sí¿a Cuál?</label>
+            <input type="text" style="border: 0px">
+        </td>
+
+        <td>
+            ¿Paga renta? <br>
+            <input type="radio" name="renta" id="r1"> <label for="r1"> No </label>
+            <input type="radio" name="renta" id="r2"> <label for="r2"> Sí</label>
+
+        </td>
+
+        <td>
+            Renta Mensual <br>
+            $ <input type="number" style="border: 0px">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            ¿Tiene seguro de vida? <br>
+            <input type="radio" name="seguro" id="v1"><label for="v1"> No</label>
+            <input type="radio" name="seguro" id="v2"><label for="v2"> Sí(nombre de la Cía)</label>
+            <input type="text" style="border: 0px">
+        </td>
+
+        <td>
+            ¿Tiene automovil propio? <br>
+            <input type="radio" name="auto" id="auto1"> <label for="auto1"> No </label>
+            <input type="radio" name="auto" id="auto2"> <label for="auto2"> Sí</label>
+            <input type="text" style="border: 0px">
+        </td>
+
+        <td>
+            Marca:
+            <input type="text" style="border: 0px"> <br>
+            Modelo:
+            <input type="text" style="border: 0px">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            ¿Puede viajar? <br>
+            <input type="radio" name="viajar" id="vi1"><label for="t1"> Sí</label>
+            <input type="radio" name="viajar" id="vi2"><label for="t2"> No(razones)</label>
+            <input type="text" style="border: 0px">
+        </td>
+
+        <td>
+            ¿Tiede deudas? <br>
+            <input type="radio" name="deudas" id="d1"> <label for="d1"> No </label>
+            <input type="radio" name="deudas" id="d2"> <label for="d2"> Sí(¿con quién?)</label>
+            <input type="text" style="border: 0px">
+        </td>
+
+        <td>
+            Importe <br>
+            $ <input type="number" style="border: 0px">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Fecha en que podría presentarse a trabajar <br>
+            <input type="date" style="border: 0px">
+        </td>
+        <td colspan="2">
+            ¿A cuanto ascienden sus gatos mensuales? <br>
+            $ <input type="number" style="border: 0px">
+        </td>
+    </tr>
+
+
+</table>
+
+<table border="1">
+    <tr>
+        <th BGCOLOR="#a9a9a9">Comentarios del Entrevistador y Firma</th>
+        <td style="border: 0px">Hago constar que mis respuestas son verdaderas</td>
+    </tr>
+
+    <tr>
+       <td><input type="text" style="width: 500px; height: 100px;border: 0px"></td>
+    </tr>
+
+    <tr>
+        <td><input type="text" style="width: 500px; height: 100px;border: 0px"></td>
+        <td
+                style="border: 0px; "><hr>
+            <center> Firma del Solicitante</center>
+        </td>
+    </tr>
+</table>
+
+    </tbody>
+
+
+
+
+</body>
+</html>
